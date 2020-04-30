@@ -13,6 +13,7 @@
 		95E526CD24406EE200A0EAF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E526CC24406EE200A0EAF8 /* Assets.xcassets */; };
 		95E526D024406EE200A0EAF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E526CF24406EE200A0EAF8 /* Preview Assets.xcassets */; };
 		95E526D324406EE200A0EAF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E526D124406EE200A0EAF8 /* LaunchScreen.storyboard */; };
+		95E526DB2440705E00A0EAF8 /* UserAndFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E526DA2440705E00A0EAF8 /* UserAndFriend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		95E526CF24406EE200A0EAF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95E526D224406EE200A0EAF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95E526D424406EE200A0EAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E526DA2440705E00A0EAF8 /* UserAndFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAndFriend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				95E526D124406EE200A0EAF8 /* LaunchScreen.storyboard */,
 				95E526D424406EE200A0EAF8 /* Info.plist */,
 				95E526CE24406EE200A0EAF8 /* Preview Content */,
+				95E526DA2440705E00A0EAF8 /* UserAndFriend.swift */,
 			);
 			path = ListingPeople;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E526DB2440705E00A0EAF8 /* UserAndFriend.swift in Sources */,
 				95E526C724406EDE00A0EAF8 /* AppDelegate.swift in Sources */,
 				95E526C924406EDE00A0EAF8 /* SceneDelegate.swift in Sources */,
 				95E526CB24406EDE00A0EAF8 /* ContentView.swift in Sources */,
